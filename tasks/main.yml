@@ -2,7 +2,7 @@
 - name: Ensure zsh homebrew package is installed.
   homebrew:
     name: zsh
-    state: present
+    state: latest
 
 - name: Ensure zsh is the default shell.
   user:
